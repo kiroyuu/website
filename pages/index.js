@@ -10,6 +10,7 @@ import {
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
+import { BioSection, BioYear } from "../components/bio";
 
 const Page = () => {
   return (
@@ -73,6 +74,35 @@ const Page = () => {
             </Button>
           </NextLink>
         </Box>
+        <Section delay={0.2}>
+          <Heading as="h3" variant="section-title">
+            Bio
+          </Heading>
+          <BioSection>
+            <BioYear>1995</BioYear>
+            Born in Kouvola, Finland.
+          </BioSection>
+          <BioSection>
+            <BioYear>2018</BioYear>
+            Worked at multiple summer jobs in web development, automation
+            testing and embedded systems development.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Completed the Master&apos;s Programme in Information Technology at
+            the University of Jyväskylä.
+          </BioSection>
+          <BioSection>
+            <BioYear>2022 to present</BioYear>
+            Working at Patria as a software developer.
+          </BioSection>
+        </Section>
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            I ♥
+          </Heading>
+          <Paragraph>Sports, Programming, Drawing, Nature, Learning</Paragraph>
+        </Section>
       </Section>
     </Container>
   );
