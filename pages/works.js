@@ -14,7 +14,7 @@ const Works = () => {
         <Section>
           <WorkGridItem id="watcher" title="Watcher" thumbnail={thumbWatcher}>
             A desktop application to monitor your IoT devices and their sensors.
-            Made with Java, Spring Boot, and PostgreSQL.
+            Made with Java, Spring Boot, C++ and PostgreSQL.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

@@ -95,7 +95,7 @@ const Navbar = (props) => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                <NextLink href="https://github.com/kiroyuu/website" passHref>
                   <MenuItem as={Link}>View Source</MenuItem>
                 </NextLink>
               </MenuList>
