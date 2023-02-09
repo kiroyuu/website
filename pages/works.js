@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid } from "@chakra-ui/react";
+import { Container, Badge, Box, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 import thumbWatcher from "../public/images/watcher.png";
@@ -10,6 +10,15 @@ const Works = () => {
         Works
       </Heading>
 
+      <Box mb={5}>
+        <Badge colorScheme="red" mr={4}>
+          NOTE
+        </Badge>
+        <span>
+          This page is still under development and does not contain all of the
+          projects that I&apos;ve worked on!
+        </span>
+      </Box>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="watcher" title="Watcher" thumbnail={thumbWatcher}>
