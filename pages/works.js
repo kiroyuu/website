@@ -3,6 +3,7 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 import thumbWatcher from "../public/images/watcher.png";
 import thumbLibrary from "../public/images/library.png";
+import thumbNative from "../public/images/react-native.png";
 
 const Works = () => {
   return (
@@ -28,6 +29,17 @@ const Works = () => {
             project is a practice project to learn GraphQL with Node.js. The
             application has a JWT authentication system for login and
             authorization of adding and modifying books and authors.
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="nativeApp"
+            title="React Native App"
+            thumbnail={thumbNative}
+          >
+            A practice project to learn React Native. The application is a
+            simple movie rating application. This project is still in progress
+            and currently just has a placeholder UI with github stuff.
           </WorkGridItem>
         </Section>
         <Section>
