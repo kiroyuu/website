@@ -1,11 +1,23 @@
-import { Container, Heading } from "@chakra-ui/react";
+import { Container, Heading, Badge } from "@chakra-ui/react";
 import Paragraph from "../../components/paragraph";
-import GithubIcon from "../../components/icons/github";
+import GithubLink from "../../components/icons/github";
 
 const Watcher = () => {
   return (
     <Container>
       <Heading>Watcher</Heading>
+      <Badge colorScheme="blue" mr={4}>
+        Java
+      </Badge>
+      <Badge colorScheme="orange" mr={4}>
+        Spring Boot
+      </Badge>
+      <Badge colorScheme="orange" mr={4}>
+        C++
+      </Badge>
+      <Badge colorScheme="red" mr={4}>
+        PostgreSQL
+      </Badge>
       <Paragraph>
         Watcher was a project which I did for a computer science course. The
         goal was to learn more about desktop applications and how to build them.
@@ -21,7 +33,9 @@ const Watcher = () => {
         data with histograms and other graphs. Admin users have the ability to
         lock and/or delete users.
       </Paragraph>
-      <GithubIcon />
+      <GithubLink href="https://github.com/kiroyuu/Watcher">
+        Source code
+      </GithubLink>
     </Container>
   );
 };

@@ -2,6 +2,7 @@ import { Container, Badge, Box, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 import thumbWatcher from "../public/images/watcher.png";
+import thumbLibrary from "../public/images/library.png";
 
 const Works = () => {
   return (
@@ -20,6 +21,15 @@ const Works = () => {
         </span>
       </Box>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="library" title="Library" thumbnail={thumbLibrary}>
+            A web application to manage your books and their authors. Made with
+            React, Chakra-UI, Node.js, GraphQl, Express and MongoDB. This
+            project is a practice project to learn GraphQL with Node.js. The
+            application has a JWT authentication system for login and
+            authorization of adding and modifying books and authors.
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="watcher" title="Watcher" thumbnail={thumbWatcher}>
             A desktop application to monitor your IoT devices and their sensors.

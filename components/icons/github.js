@@ -1,17 +1,17 @@
 import { Container, Link, Box } from "@chakra-ui/react";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { IoLogoGithub } from "react-icons/io";
 
-const GithubIcon = () => {
+const GithubLink = ({ children, href }) => {
   return (
     <Container>
       <Box p={2} display="flex" alignItems="center">
-        <ExternalLinkIcon color="red.500" mr={2} />
-        <Link href="https://github.com/kiroyuu/Watcher" isExternal>
-          Github
+        <IoLogoGithub />
+        <Link href={href} isExternal marginLeft={3}>
+          {children}
         </Link>
       </Box>
     </Container>
   );
 };
 
-export default GithubIcon;
+export default GithubLink;
