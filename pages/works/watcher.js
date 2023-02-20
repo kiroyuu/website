@@ -1,4 +1,4 @@
-import { Container, Heading, Badge } from "@chakra-ui/react";
+import { Container, Badge } from "@chakra-ui/react";
 import Paragraph from "../../components/paragraph";
 import GithubLink from "../../components/icons/github";
 import { WorkTitle } from "../../components/works";
