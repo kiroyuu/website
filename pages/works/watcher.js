@@ -1,11 +1,12 @@
 import { Container, Heading, Badge } from "@chakra-ui/react";
 import Paragraph from "../../components/paragraph";
 import GithubLink from "../../components/icons/github";
+import { WorkTitle } from "../../components/works";
 
 const Watcher = () => {
   return (
     <Container>
-      <Heading>Watcher</Heading>
+      <WorkTitle>Watcher</WorkTitle>
       <Badge colorScheme="blue" mr={4}>
         Java
       </Badge>

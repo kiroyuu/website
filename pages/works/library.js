@@ -1,11 +1,12 @@
-import { Container, Heading, Box, Badge } from "@chakra-ui/react";
+import { Container, Box, Badge } from "@chakra-ui/react";
 import Paragraph from "../../components/paragraph";
 import GithubLink from "../../components/icons/github";
+import { WorkTitle } from "../../components/works";
 
 const Library = () => {
   return (
     <Container>
-      <Heading>Library</Heading>
+      <WorkTitle>Library</WorkTitle>
       <Box marginBottom={3}>
         <Badge colorScheme="blue" mr={4}>
           React

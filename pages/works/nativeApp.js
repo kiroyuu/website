@@ -1,10 +1,11 @@
 import { Container, Heading, Box, Badge } from "@chakra-ui/react";
 import Paragraph from "../../components/paragraph";
+import { WorkTitle } from "../../components/works";
 
 const NativeApp = () => {
   return (
     <Container>
-      <Heading>Native App</Heading>
+      <WorkTitle>Native App</WorkTitle>
       <Box marginBottom={3}>
         <Badge colorScheme="blue" mr={4}>
           React Native
