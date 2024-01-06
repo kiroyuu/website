@@ -5,6 +5,7 @@ import {
   Button,
   Heading,
   Image,
+  Link,
   useColorModeValue,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
@@ -93,8 +94,16 @@ const Page = () => {
             the University of Jyväskylä.
           </BioSection>
           <BioSection>
-            <BioYear>2022 to present</BioYear>
-            Working at Patria as a software developer.
+            <BioYear>2022 - 2023</BioYear>
+            Worked at Patria as a software developer with C++ and Qt.
+          </BioSection>
+          <BioSection>
+            <BioYear>2023 to present</BioYear>
+            Working at
+            <Link href="https://skipperi.fi" isExternal marginLeft={3}>
+              Skipperi
+            </Link>{" "}
+            as a full-stack developer.
           </BioSection>
         </Section>
         <Section delay={0.3}>
