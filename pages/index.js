@@ -14,6 +14,8 @@ import Paragraph from "../components/paragraph";
 import { BioSection, BioYear } from "../components/bio";
 
 const Page = () => {
+  const profilePic = "/images/profile.jpg";
+
   return (
     <Container>
       <Box
@@ -46,7 +48,7 @@ const Page = () => {
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg"
+            src={profilePic}
             alt="Profile image"
           />
         </Box>
