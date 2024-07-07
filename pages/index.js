@@ -25,7 +25,7 @@ const Page = () => {
         p={3}
         align="center"
       >
-        Hello, I&apos;m a full-stack developer based in Tampere!
+        Hello, I&apos;m a full-stack developer based in Helsinki!
       </Box>
 
       <Box display={{ md: "flex" }}>
@@ -58,18 +58,9 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <Paragraph>
-          Joel is a full-stack developer based in Tampere with a passion for
-          building digital services/stuff he wants. He has a quick knack for
-          learning new technologies and is always looking for new challenges.
-          His freetime is spent tinkering with electronics and solving real life
-          problems with code. When not online he can be found in the gym or
-          participating in some kind of sport. In the future he hopes to be able
-          to use his skills to help wild animals and the environment. Joel is
-          also planning on starting a blog about his journey as a software
-          developer and also start a youtube channel where he will be
-          documenting his projects.
-        </Paragraph>
+
+        <Paragraph>Joel is a full-stack developer based in Helsinki with a passion for building digital services and tools he desires. He has a knack for learning new technologies quickly and is always looking for new challenges. His free time is spent tinkering with electronics and solving real-life problems with code. When not online, he can be found in the gym or participating in various sports. In the future, he hopes to use his skills to help wild animals and the environment. Joel also plans to start a blog about his journey as a software developer and a YouTube channel where he will document his projects.</Paragraph>
+
         <Box align="center" my={4}>
           <NextLink href="/works">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
@@ -81,24 +72,29 @@ const Page = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
+
           <BioSection>
             <BioYear>1995</BioYear>
             Born in Kouvola, Finland.
           </BioSection>
+
           <BioSection>
             <BioYear>2018</BioYear>
             Worked at multiple summer jobs in web development, automation
             testing and embedded systems development.
           </BioSection>
+
           <BioSection>
             <BioYear>2022</BioYear>
             Completed the Master&apos;s Programme in Information Technology at
             the University of Jyväskylä.
           </BioSection>
+
           <BioSection>
             <BioYear>2022 - 2023</BioYear>
             Worked at Patria as a software developer with C++ and Qt.
           </BioSection>
+
           <BioSection>
             <BioYear>2023 to present</BioYear>
             Working at
@@ -108,10 +104,12 @@ const Page = () => {
             as a full-stack developer.
           </BioSection>
         </Section>
+
         <Section delay={0.3}>
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
+
           <Paragraph>Sports, Programming, Drawing, Nature, Learning</Paragraph>
         </Section>
       </Section>
