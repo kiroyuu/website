@@ -31,7 +31,7 @@ const Flare = () => {
 
       <Paragraph>
         I am creating my own mobile application with React Native and Expo.
-        I won't go into details about the app, but I can tell you something about the stack.
+        I won&apos;t go into details about the app, but I can tell you something about the stack.
 
         The app is built with React Native and Expo.
         Backend is built with Golang, Supabase and Postgres.
