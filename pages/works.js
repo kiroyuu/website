@@ -3,9 +3,9 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
 import thumbWatcher from "../public/images/watcher.png";
 import thumbLibrary from "../public/images/library.png";
-import thumbTournament from "../public/images/dragonsports.png";
+import thumbTournament from "../public/images/dragonsports.jpeg";
 import thumbNative from "../public/images/react-native.png";
-import thumbFlare from "../public/images/flare.png";
+import thumbFlare from "../public/images/flare.jpeg";
 
 const Works = () => {
   return (
