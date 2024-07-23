@@ -1,6 +1,8 @@
 import { Container, Box, Badge } from "@chakra-ui/react";
 import Paragraph from "../../components/paragraph";
 import { WorkTitle } from "../../components/works";
+import flareImage from '../../public/images/flare.png';
+import Image from "next/image";
 
 const Flare = () => {
   return (
@@ -37,6 +39,30 @@ const Flare = () => {
         Backend is built with Golang, Supabase and Postgres.
         I use Sentry for error tracking and Posthog for analytics. I use Stripe for payments.
       </Paragraph>
+
+      <Box position="relative" marginTop={10}>
+        {/* Image */}
+        <Image
+          src={flareImage}
+          alt="App design"
+          width={800}
+          height={450}
+          objectFit="contain"
+          placeholder="blur"
+        />
+
+        {/* Blurred Box */}
+        <Box
+          position="absolute"
+          top={0}
+          left={0}
+          width="100%"
+          height="100%"
+          bg="rgba(255, 255, 255, 0.2)" // Semi-transparent white background for the blur effect
+          style={{ backdropFilter: "blur(3px)" }} // Adjust the blur value as needed
+          rounded="md"
+        />
+      </Box>
     </Container>
   );
 };
