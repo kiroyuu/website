@@ -59,7 +59,17 @@ const Page = () => {
           Work
         </Heading>
 
-        <Paragraph>Joel is a full-stack developer based in Helsinki with a passion for building digital services and tools he desires. He has a knack for learning new technologies quickly and is always looking for new challenges. His free time is spent tinkering with electronics and solving real-life problems with code. When not online, he can be found in the gym or participating in various sports. In the future, he hopes to use his skills to help wild animals and the environment. Joel also plans to start a blog about his journey as a software developer and a YouTube channel where he will document his projects.</Paragraph>
+        <Paragraph>
+          Joel is a full-stack developer based in Helsinki with a passion for
+          building digital services and tools he desires. He has a knack for
+          learning new technologies quickly and is always looking for new
+          challenges. His free time is spent tinkering with electronics and
+          solving real-life problems with code. When not online, he can be found
+          in the gym or participating in various sports. In the future, he hopes
+          to use his skills to help wild animals and the environment. Joel also
+          plans to start a blog about his journey as a software developer and a
+          YouTube channel where he will document his projects.
+        </Paragraph>
 
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -96,12 +106,21 @@ const Page = () => {
           </BioSection>
 
           <BioSection>
-            <BioYear>2023 to present</BioYear>
-            Working at
+            <BioYear>2023 - 2024</BioYear>
+            Worked at
             <Link href="https://skipperi.fi" isExternal marginLeft={3}>
               Skipperi
-            </Link>{" "}
-            as a full-stack developer.
+            </Link>
+            &nbsp;as a full-stack developer.
+          </BioSection>
+
+          <BioSection>
+            <BioYear>2024 to present</BioYear>
+            Working at
+            <Link href="https://upcloud.com" isExternal marginLeft={3}>
+              UpCloud
+            </Link>
+            &nbsp;as a frontend developer.
           </BioSection>
         </Section>
 
