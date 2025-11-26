@@ -1,8 +1,6 @@
 import { Container, Box, Badge } from "@chakra-ui/react";
 import Paragraph from "../../components/paragraph";
 import { WorkTitle } from "../../components/works";
-import flareImage from "../../public/images/flare.png";
-import Image from "next/image";
 
 const Flare = () => {
 	return (
@@ -53,8 +51,8 @@ const Flare = () => {
 
 			<Box position="relative" marginTop={10}>
 				{/* Image */}
-				<Image
-					src={flareImage}
+				<img
+					src="/images/flare.png"
 					alt="App design"
 					width={800}
 					height={450}
