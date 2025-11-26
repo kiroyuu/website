@@ -1,8 +1,6 @@
 import { Container, Box, Badge } from "@chakra-ui/react";
 import Paragraph from "../../components/paragraph";
 import { WorkTitle } from "../../components/works";
-import thumb from "../../public/images/ai-calorie.png";
-import Image from "next/image";
 
 const CalorieAI = () => {
 	return (
@@ -40,9 +38,9 @@ const CalorieAI = () => {
 			</Paragraph>
 
 			<Box marginTop={10} width="200px" height="400px">
-				<Image
+				<img
 					alt="AI Calorie Tracker Screenshot"
-					src={thumb}
+					src="/images/ai-calorie.png"
 					style={{
 						borderRadius: "8px",
 					}}
