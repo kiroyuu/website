@@ -23,7 +23,7 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 	</Box>
 );
 
-export const WorkGridItem = ({ children, id, title, thumbnail }) => {
+export const WorkGridItem = ({ children, id, title, imageUrl }) => {
 	return (
 		<Box w="100%">
 			<Global
@@ -41,8 +41,8 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => {
 				height="100%"
 			>
 				<Box h="100px" w="full" position="relative" overflow="hidden">
-					<Image
-						src={thumbnail}
+					<img
+						src={imageUrl}
 						alt={title}
 						fill
 						style={{ objectFit: "cover", objectPosition: "center" }}

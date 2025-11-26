@@ -1,12 +1,6 @@
 import { Container, Badge, Box, Heading, SimpleGrid } from "@chakra-ui/react";
 import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-item";
-import thumbWatcher from "../public/images/watcher.png";
-import thumbLibrary from "../public/images/library.png";
-import thumbTournament from "../public/images/dragonsports.jpeg";
-import thumbNative from "../public/images/react-native.png";
-import thumbFlare from "../public/images/flare.jpeg";
-import thumbCalorie from "../public/images/ai-calorie.png";
 
 const Works = () => {
 	return (
@@ -31,7 +25,7 @@ const Works = () => {
 					<WorkGridItem
 						id="dragonsports"
 						title="Tournament creation website"
-						thumbnail={thumbTournament}
+						imageUrl="/images/dragonsports.jpeg"
 					>
 						A tournament creation website, which I mainly created for me and my
 						friends, to support us in creating and managing our own tournaments.
@@ -43,7 +37,7 @@ const Works = () => {
 					<WorkGridItem
 						id="calorie"
 						title="AI calorie tracker"
-						thumbnail={thumbCalorie}
+						imageUrl="/images/ai-calorie.png"
 					>
 						React Native mobile application that uses AI to track calories from
 						food the user types.
@@ -51,7 +45,7 @@ const Works = () => {
 				</Section>
 
 				<Section>
-					<WorkGridItem id="flare" title="evelio" thumbnail={thumbFlare}>
+					<WorkGridItem id="flare" title="evelio" imageUrl="/images/flare.jpeg">
 						Still under development. A mobile app that I am currently
 						developing. Consists of a backend, marketing website, admin console
 						and the mobile app itself.
@@ -59,7 +53,11 @@ const Works = () => {
 				</Section>
 
 				<Section>
-					<WorkGridItem id="library" title="Library" thumbnail={thumbLibrary}>
+					<WorkGridItem
+						id="library"
+						title="Library"
+						imageUrl="/images/library.png"
+					>
 						A web application to manage your books and their authors. Made with
 						React, Chakra-UI, Node.js, GraphQl, Express and MongoDB. This
 						project is a practice project to learn GraphQL with Node.js. The
@@ -72,7 +70,7 @@ const Works = () => {
 					<WorkGridItem
 						id="nativeApp"
 						title="React Native App"
-						thumbnail={thumbNative}
+						imageUrl="/images/react-native.png"
 					>
 						A practice project to learn React Native. The application is a
 						simple movie rating application. This project is still in progress
@@ -81,7 +79,11 @@ const Works = () => {
 				</Section>
 
 				<Section>
-					<WorkGridItem id="watcher" title="Watcher" thumbnail={thumbWatcher}>
+					<WorkGridItem
+						id="watcher"
+						title="Watcher"
+						imageUrl="/images/watcher.png"
+					>
 						A desktop application to monitor your IoT devices and their sensors.
 						Made with Java, Spring Boot, C++ and PostgreSQL.
 					</WorkGridItem>
